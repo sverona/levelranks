@@ -1,0 +1,96 @@
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  font-size: small;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+
+  font-variant-caps: all-small-caps;
+  font-size: larger;
+  letter-spacing: 0.1rem;
+}
+
+th {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+th .arrow.ascending {
+  color: lime;
+}
+
+th .arrow.descending {
+  color: red;
+}
+
+tbody tr {
+  background-color: azure;
+}
+
+tr:nth-child(even) {
+  background-color: lightcyan;
+}
+
+tbody tr:hover {
+  background-color: paleturquoise;
+}
+
+td {
+  text-align: right;
+  padding: 2px 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+tr td:nth-child(7) {
+  max-width: 40ch;
+}
+
+a {
+  color: initial;
+  font-weight: 600;
+  text-decoration-thickness: 1px;
+  text-decoration-color: darkgray;
+  text-decoration-style: dotted;
+}
+
+td.spanner {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: small;
+  letter-spacing: 2ch;
+  color: silver;
+}
+
+#root {
+  max-width: 1280px;
+}
+
+fieldset {
+  text-align: left;
+  border: 1px solid #aaa;
+}
+
+legend {
+  font-weight: bold;
+}
+
+fieldset ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
